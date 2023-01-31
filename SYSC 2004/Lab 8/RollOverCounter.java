@@ -1,0 +1,34 @@
+// Tauheed Alamgir 101194927
+
+public class RollOverCounter extends Counter
+{
+    /**
+     * Creates a counter that has DEFAULT_MINIMUM and DEAFAULT_MAXIMUM
+     */
+    public RollOverCounter()
+    {
+        super();
+    }
+    
+    /**
+     * Creates a counter that has minCount and maxCount
+     */    
+    public RollOverCounter(int minCount, int maxCount)
+    {
+        super(minCount, maxCount);
+    }
+    
+    /**
+     * Increment this counter by 1.
+     */
+    public void countUp()
+    {
+        // If we've reached the maximum count, invoking this
+        // method rolls the counter over to its minimum value.
+        if (super.isAtMaximum()) {
+            super.reset();
+        } else {
+            super.incrementCount();
+        }
+    }
+}
