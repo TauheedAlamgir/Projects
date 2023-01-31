@@ -1,3 +1,4 @@
+// Tauheed Alamgir 101194927
 import javax.swing.*;
 import java.awt.*;
 import java.util.List;
@@ -9,7 +10,7 @@ import java.util.*;
  * the BlueJ "shapes" example. 
  *
  * @author: Bruce Quig
- * @author: Michael Kšlling (mik)
+ * @author: Michael KÅ¡lling (mik)
  *
  * @version 2016.02.29
  */
