@@ -4,11 +4,6 @@ import java.util.*;
  * A simple model of an auction.
  * The auction maintains a list of lots of arbitrary length.
  *
- * @author David J. Barnes and Michael Kolling.
- * @version 2006.03.30
- *
- * @author (of AuctionSkeleton) Lynn Marshall
- * @version 2.0
  * 
  * @author Tauheed Alamgir 101194927
  * @version February 12, 2022
