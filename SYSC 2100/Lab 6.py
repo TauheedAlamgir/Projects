@@ -12,11 +12,6 @@
 
 from typing import Any
 
-"""
-History:
-1.00 Feb. 21, 2022 - Initial release.
-"""
-
 class Polynomial:
 
     class TermNode:
