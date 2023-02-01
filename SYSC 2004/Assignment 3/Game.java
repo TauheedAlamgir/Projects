@@ -12,8 +12,6 @@ import java.util.*;
  *  rooms, creates the parser and starts the game.  It also evaluates and
  *  executes the commands that the parser returns.
  * 
- * @author  Michael Kolling and David J. Barnes
- * @version 2006.03.30
  * 
  * @author Tauheed Alamgir 101194927
  * @version March 5, 2022
